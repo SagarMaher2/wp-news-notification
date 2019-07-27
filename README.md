@@ -11,3 +11,8 @@ thats all.
 1. Custom Notification Form.
 ![alt text](Screenshots/1_Custom_Notification.png)
 2. Plugin Settings.
+![alt text](Screenshots/2_Plugin_settings.png)
+3. Plugin Settings - FCM Help 1.
+![alt text](Screenshots/3_Plugin_settings.png)
+4. Plugin Settings - FCM Help 2.
+![alt text](Screenshots/4_Plugin_settings.png)
