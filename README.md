@@ -6,3 +6,8 @@ Wordpress Plugin for Automated and custom push notification to android device by
 2. Upload Plugin zip to your workpress site and Activate Plugin.
 3. Folow Instruction given in plugin setting page to get your FCM API.
 thats all.
+
+# Screenshots :
+1. Custom Notification Form.
+![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+2. Plugin Settings.
