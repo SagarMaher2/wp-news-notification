@@ -9,5 +9,5 @@ thats all.
 
 # Screenshots :
 1. Custom Notification Form.
-![alt text](https://raw.githubusercontent.com/username/projectname/branch/path/to/img.png)
+![alt text](Screenshots/1_Custom_Notification.png)
 2. Plugin Settings.
