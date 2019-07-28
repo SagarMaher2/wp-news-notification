@@ -1,7 +1,7 @@
 <?php
 /*
  * Plugin Name: WPNews - Notification
- * Plugin URI:  http://codingvisions.com
+ * Plugin URI:  https://github.com/SagarMaher2/wp-news-notification
  * Description: WPNews Plugin for sending notification to android device.
  * Author:      Sagar Maher
  * Author URI:  http://codingvisions.com
