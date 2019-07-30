@@ -51,7 +51,7 @@ if(isset( $_POST['savekey'] ) && wp_verify_nonce($_REQUEST['savekey'], 'mode_sav
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form method="post" action="admin.php?page=wp_news_push_notification_settings" enctype="multipart/form-data" class="contact100-form validate-form">
+			<form method="post" action="admin.php?page=cvipl_wp_news_push_notification_settings" enctype="multipart/form-data" class="contact100-form validate-form">
 				<span class="contact100-form-title">
 					Google FCM settings!
 				</span>

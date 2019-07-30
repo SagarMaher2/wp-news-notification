@@ -71,7 +71,7 @@ if(isset( $_POST['sendmsg'] ) && wp_verify_nonce($_REQUEST['sendmsg'], 'mode_sen
 
 	<div class="container-contact100">
 		<div class="wrap-contact100">
-			<form id="pushform" method="POST" action="admin.php?page=wp_news_push_notification" enctype="multipart/form-data" class="contact100-form validate-form">
+			<form id="pushform" method="POST" action="admin.php?page=cvipl_wp_news_push_notification" enctype="multipart/form-data" class="contact100-form validate-form">
 				<span class="contact100-form-title">
 					Send Custom Push Notification!
 				</span>
