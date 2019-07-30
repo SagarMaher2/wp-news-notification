@@ -16,20 +16,20 @@
 
 if ( ! defined( 'ABSPATH' ) ) exit; // Exit if accessed directly
 
-function wp_news_notification_plugin_menu(){
-	add_menu_page('WPNews Push Notification', 'WPNews Push Notification', 'manage_options', 'wp_news_push_notification', 'wp_news_push_notification', plugins_url( 'images/mail-icon.png', __FILE__  ),10);
+function cvipl_wp_news_notification_plugin_menu(){
+	add_menu_page('WPNews Push Notification', 'WPNews Push Notification', 'manage_options', 'cvipl_wp_news_push_notification', 'cvipl_wp_news_push_notification', plugins_url( 'images/mail-icon.png', __FILE__  ),10);
 
-	add_submenu_page( 'wp_news_push_notification', 'Settings', 'WPNews settings', 'manage_options', 'wp_news_push_notification_settings', 'wp_news_push_notification_settings');
+	add_submenu_page( 'wp_news_push_notification', 'Settings', 'WPNews settings', 'manage_options', 'cvipl_wp_news_push_notification_settings', 'cvipl_wp_news_push_notification_settings');
 }
 add_action( 'admin_menu', 'wp_news_notification_plugin_menu' );
 
 add_action( 'publish_post', 'wp_news_notification_notify_new_post' );
 
-function wp_news_push_notification(){
+function cvipl_wp_news_push_notification(){
 	include('inc/wpnews_notification_form.php');
 }
 
-function wp_news_push_notification_settings(){
+function cvipl_wp_news_push_notification_settings(){
 	include('inc/wpnews_notification_settings.php');
 }
 
@@ -39,7 +39,7 @@ function wp_news_push_notification_settings(){
  *
  * @param int $post_ID the current post ID
  */
-function wp_news_notification_notify_new_post( $post_ID ){
+function cvipl_wp_news_notification_notify_new_post( $post_ID ){
    
     if (get_option('wp_news_auto_notification') == "Yes"){
 	$title = get_the_title( $post_ID );
